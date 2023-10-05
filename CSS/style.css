@@ -1,0 +1,138 @@
+/*******************************************************************************
+ *
+ * Nom : style.css
+ * Date et auteur :
+ *		Créé le 27/09/2023
+ *
+ * Description :
+ *		Fichier CSS du TP initiation au langage développement Web
+ *
+ *******************************************************************************/
+ * {
+    box-sizing: border-box;
+
+  }
+
+body{
+    
+	font-family: Arial,Helvetica,sans-serif;
+	line-height: 1.5em;
+
+}
+
+header{
+    background-color: #333; /* Couleur de fond gris foncé */
+    color: white; /* Texte en blanc */
+    text-align: center; /* Texte centré */
+    font-size: 2em; /* Taille de police de 2em */
+    line-height: 1.2em; /* Hauteur de ligne de 1.2em */
+    margin: 10px; /* Marge extérieure de 10 pixels */
+    padding: 10px; /* Marge intérieure de 10 pixels */
+}
+
+footer {
+    background-color: #333; /* Couleur de fond gris foncé */
+    color: white; /* Texte en blanc */
+    text-align: center; /* Texte centré */
+    margin: 5px; /* Marge extérieure de 5 pixels */
+    padding: 10px; /* Marge intérieure de 10 pixels */
+}
+
+section {
+    margin: 10px;
+}
+
+article{
+    margin: 10px;
+    padding: 10px;
+    border: 2px dashed gray; /* Bordure de 2px, pointillée, grise */
+}
+
+p{
+    margin: 10px;
+}
+
+h1{
+    color:red;
+    text-align: center;
+    font-size:2em;
+    text-transform: uppercase;
+}
+
+h2 {
+    padding: 0 0 0 10px; /* Marge intérieure de 10px à gauche */
+    background-color: red; /* Fond rouge */
+    border-left: 50px solid black; /* Bordure à gauche de 50px, noire et continue */
+    text-transform: capitalize; /* Met la première lettre de chaque mot en majuscules */
+}
+
+#info {
+    width: 600px; /* Largeur de 600 pixels */
+    background-color: brown; /* Couleur de fond brune */
+    color: white; /* Couleur du texte blanche */
+    border-radius: 10px; /* Coins de la bordure arrondis */
+    text-align: center; /* Texte centré */
+    font-size: 1.2em; /* Taille de police de 1.2em */
+    line-height: 2em; /* Hauteur des lignes de 2em */
+    padding: 10px; /* Marge intérieure de 10 pixels */
+    margin: auto; /* Marge extérieure "auto" pour centrer horizontalement */
+}
+
+.documentation {
+    background-color: green; /* Couleur de fond verte */
+    color: white; /* Couleur du texte blanche */
+    padding: 10px; /* Marge intérieure de 10 pixels */
+}
+
+.documentation a {
+    text-decoration: none; /* Pas de décoration du texte */
+    background-color: darkgreen; /* Couleur de fond vert foncé */
+    color: yellowgreen; /* Couleur du texte vert-jaune */
+    padding: 5px; /* Marge intérieure de 5 pixels */
+}
+
+.documentation a:hover {
+    background-color: lightgreen; /* Couleur de fond vert clair au survol */
+    color: darkgreen; /* Couleur du texte vert foncé au survol */
+}
+
+.code {
+    font-family: 'Courier', monospace; /* Famille de police "Courier" */
+    background-color: #f2f2f2; /* Couleur de fond grise très claire */
+    border: 1px solid #ccc; /* Bordure de 1 pixel, continue, grise assez claire */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 10px; /* Marge intérieure de 10 pixels */
+}
+
+pre {
+    margin: 10px; /* Marge extérieure de 10 pixels */
+}
+
+table {
+    width: 100%; /* Largeur de la table à 100% */
+    margin: auto; /* Marge extérieure "auto" pour centrer horizontalement */
+    border-collapse: collapse; /* Fusion des bordures des cellules */
+}
+
+th {
+    background-color: #00008B; /* Couleur de fond bleu foncé pour les cellules d'en-tête */
+    color: white; /* Couleur du texte en blanc */
+    height: 3em; /* Hauteur de 3em pour les cellules d'en-tête */
+    border: 1px solid #000; /* Bordure de 1 pixel pour toutes les cellules */
+    padding: 10px; /* Marge intérieure de 10 pixels pour toutes les cellules */
+    text-align: center; /* Centrer le texte dans les cellules */
+}
+
+tr:nth-child(even) {
+    background-color: #ADD8E6; /* Couleur de fond bleu clair pour les lignes paires du tableau */
+}
+
+tr:last-child td {
+    color: blue; /* Couleur du texte en bleu pour la dernière ligne du tableau */
+}
+
+td {
+    border: 1px solid #000; /* Bordure de 1 pixel pour toutes les cellules */
+    padding: 10px; /* Marge intérieure de 10 pixels pour toutes les cellules */
+    text-align: center; /* Centrer le texte dans les cellules */
+}
